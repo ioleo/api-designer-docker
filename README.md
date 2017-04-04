@@ -15,7 +15,7 @@ support `RAML 1.0`.
 
 Assuming you have Docker installed, simply run
 
-`docker run -d --name api-designer -v ${pwd}:/raml -p 3000:3000 loostro/api-designer-docker`
+`docker run -d --name api-designer -v ${pwd}:/raml -p 3000:3000 loostro/api-designer`
 
 in the directory containig your RAML files, or replace the `${pwd}` with an absolute path to it.
 
